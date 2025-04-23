@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "playfair";
+    src: url("https://cdn-static-e.dora.run/fonts/v4/Playfair-Display-600.ttf");
+}
+
+.Indro-img {
+    width: 100%;
+
+}
+
+.indro-desc {
+    margin-top: 50px;
+}
+
+.indro-desc span {
+    font-family: 'Space Mono', monospace;
+    color: rgb(208, 216, 216);
+}
+
+.indro-desc a {
+    background-color: rgb(235, 112, 71);
+    border-radius: 25px;
+    margin-top: 3%;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.indro-desc a:hover {
+    background-color: rgb(241, 145, 113);
+    color: white;
+
+}
+
+.indro-desc p {
+    font-size: 105px;
+    font-family: "playfair";
+    color: white;
+}
+
+@media(max-width:1200px) {
+    .indro-desc span {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .indro-desc p {
+        font-size: 80px;
+        font-weight: 700;
+    }
+}
+
+@media(max-width:920px) {
+    .indro-desc span {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .indro-desc p {
+        font-size: 60px;
+        line-height: 100px;
+    }
+}
+
+@media(max-width:766px) {
+    .indro-desc {
+        margin-top: 0px;
+    }
+
+    .indro-desc span {
+        font-size: 10px;
+    }
+
+    .indro-desc a {
+        font-size: 10px;
+    }
+
+    .Indro-img {
+        height: 100vh;
+    }
+
+    .indro-desc p {
+        font-size: 40px;
+        line-height: 70px;
+    }
+}
