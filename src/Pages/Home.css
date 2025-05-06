@@ -9,7 +9,7 @@
 }
 
 .indro-desc {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .indro-desc span {
@@ -20,7 +20,7 @@
 .indro-desc a {
     background-color: rgb(235, 112, 71);
     border-radius: 25px;
-    margin-top: 3%;
+    margin-top: 7%;
     font-family: 'Space Mono', monospace;
     color: white;
     font-size: 14px;
@@ -31,6 +31,13 @@
     background-color: rgb(241, 145, 113);
     color: white;
 
+
+}
+
+.indro-back {
+    height: 800px;
+    background-image: url("https://cdn-imgs.dora.run/design/IOmouaZH9AvFgLWDZSNPBN.webp/w/4096/h/4096/format/webp?");
+    background-position: right;
 }
 
 .indro-desc p {
@@ -51,37 +58,78 @@
     }
 }
 
-@media(max-width:920px) {
-    .indro-desc span {
-        font-size: 12px;
-        font-weight: 600;
+
+
+@media(max-width:766px) {
+
+    .indro-desc a {
+        font-size: 14px;
+    }
+
+    .indro-back {
+        height: 600px;
     }
 
     .indro-desc p {
         font-size: 60px;
-        line-height: 100px;
+        line-height: 70px;
+    }
+
+    .About-site-head p {
+        font-size: 11px !important;
+    }
+
+    .About-site-head h5 {
+        font-size: 11px !important;
     }
 }
 
-@media(max-width:766px) {
-    .indro-desc {
-        margin-top: 0px;
-    }
+.About-site {
+    background-color: rgb(248, 242, 235);
+}
 
-    .indro-desc span {
-        font-size: 10px;
-    }
+.playfair {
+    font-family: "playfair" !important;
+}
 
-    .indro-desc a {
-        font-size: 10px;
-    }
+.spacemono {
+    font-family: 'Space Mono', monospace;
+}
 
-    .Indro-img {
-        height: 100vh;
-    }
+.gray {
+    color: rgb(121, 114, 114);
+}
 
-    .indro-desc p {
-        font-size: 40px;
-        line-height: 70px;
-    }
+.orange {
+    background-color: rgb(255, 87, 34);
+}
+
+.orange:hover {
+    background-color: rgb(255, 133, 96);
+}
+
+.connect-wrap {
+
+
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+
+    max-width: 1000px;
+
+}
+
+.connect {
+    background-color: antiquewhite;
+    padding: 50px 0px;
+}
+
+.login {
+    min-height: 500px;
+}
+
+.login-form {
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border:rgba(199, 97, 77, 0.426) solid 3px ;
+    font-family: "Lato";
 }

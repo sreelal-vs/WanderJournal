@@ -4,3 +4,6 @@
     font-family: 'Space Mono', monospace;
 
 }
+.dropdown-menu {
+    z-index: 100;
+  }
